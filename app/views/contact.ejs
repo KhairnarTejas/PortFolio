@@ -1,11 +1,56 @@
-<%- include ('partials/header.ejs') %> <%- include ('partials/main_nav.ejs') %>
+<!-- head section -->
+<%- include ('partials/header.ejs') %>
+<!-- header section -->
+<%- include ('partials/main_nav.ejs') %>
 
 <main class="container c-container mt-5 mb-5 pb-5">
-  <h1 class="display-4">Contact Us</h1>
+  <h1 class="display-4 text-center">Contact</h1>
+  <form class="mt-5 c-contact-form" action="/">
+    <div class="mb-3">
+      <label for="firstName" class="form-label">First Name</label>
+      <input
+        type="text"
+        class="form-control"
+        id="firstName"
+        name="first-name"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="lastName" class="form-label">Last Name</label>
+      <input type="text" class="form-control" id="lastName" name="last-name" />
+    </div>
+    <div class="mb-3">
+      <label for="contactNumber" class="form-label">Contact Number</label>
+      <input
+        type="text"
+        class="form-control"
+        id="contactNumber"
+        name="contact-number"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="emailAddress" class="form-label">Email</label>
+      <input
+        type="text"
+        class="form-control"
+        id="emailAddress"
+        name="email-address"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea
+        class="form-control"
+        id="message"
+        rows="3"
+        name="message"
+      ></textarea>
+    </div>
+    <button class="btn btn-primary">Submit</button>
+  </form>
 </main>
 
 <!--bottom nav-->
-
+<%- include ('partials/bottom_nav.ejs') %>
 <!--script section-->
-<%- include ('partials/bottom_nav.ejs') %> <%- include ('partials/footer.ejs')
-%>
+<%- include ('partials/footer.ejs') %>

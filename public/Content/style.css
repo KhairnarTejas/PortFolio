@@ -164,3 +164,9 @@ a {
 .bio-container {
   max-width: 600px;
 }
+
+.c-contact-form {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
