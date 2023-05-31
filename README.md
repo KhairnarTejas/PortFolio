@@ -8,7 +8,7 @@ This project is hosted at <a href="https://haneefmhmmd.github.io/resume" target=
 
 ## Getting Started
 
-To start the project, run `npm run start`. To build the project in production mode, run `npm run build`. When running `npm run start`, the app will open automatically on `localhost:3000`.
+To start the project, run `npm run start`. To build the project in production mode, run `npm run build`. When running `npm run start`, the app will open automatically on `localhost:8080`.
 
 ## Technologies Used
 
