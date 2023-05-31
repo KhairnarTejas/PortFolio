@@ -1,22 +1,32 @@
-<!-- head section -->
-<%- include ('partials/head.ejs') %>
-<!-- header section -->
-<%- include ('partials/main_nav.ejs') %>
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <!-- head section -->
+  <%- include ('partials/head.ejs') %>
+  <body>
+    <!-- header section -->
+    <%- include ('partials/main_nav.ejs') %>
 
-<main class="container c-container mt-5">
-  <div class="jumbotron text-center">
-    <p class="m-0">Hey there! My name is</p>
-    <h1 class="display-4">Haneef Muhammad.</h1>
-    <p class="lead">
-      I am a front-end developer experienced in creating performant websites and
-      user-interfaces for webapp.
-    </p>
-    <a class="btn btn-primary btn-light btn-lg mt-4" href="/about" role="button"
-      >Learn more</a
-    >
-  </div>
-</main>
-<!--bottom nav-->
-<%- include ('partials/bottom_nav.ejs') %>
-<!--script section-->
-<%- include ('partials/footer.ejs') %>
+    <main class="container c-container mt-5">
+      <div class="jumbotron text-center">
+        <p class="m-0">Hey there! My name is</p>
+        <h1 class="display-4">Haneef Muhammad.</h1>
+        <p class="lead">
+          I am a front-end developer experienced in creating performant websites
+          and user-interfaces for webapp.
+        </p>
+        <a
+          class="btn btn-primary btn-light btn-lg mt-4"
+          href="/about"
+          role="button"
+          >Learn more</a
+        >
+      </div>
+    </main>
+
+    <!--footer section-->
+    <%- include ('partials/footer.ejs') %>
+
+    <!--script section-->
+    <%- include ('partials/scripts.ejs') %>
+  </body>
+</html>
