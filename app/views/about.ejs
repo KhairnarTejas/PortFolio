@@ -1,18 +1,37 @@
-<%- include ('partials/header.ejs') %>
-<%- include ('partials/main_nav.ejs') %>
-   
+<%- include ('partials/header.ejs') %> <%- include ('partials/main_nav.ejs') %>
 
-<main class="container">
-  <div class="jumbotron">
-    <h1 class="display-4">Welcome to <%= title %> page</h1>
-    </div>
-    </main>
-    
-    <!--bottom nav-->
-    
-   
-   
-      <!--script section-->
-      <%- include ('partials/bottom_nav.ejs') %>
-      <%- include ('partials/footer.ejs') %>
-   
+<main class="container c-container mt-5 mb-5 pb-5">
+  <section
+    class="d-flex align-items-center flex-wrap justify-content-center justify-content-md-between"
+  >
+    <picture class="flex-shrink-0 avatar order-md-1 mb-3 mb-md-0">
+      <img
+        src="/img/haneef.jpg"
+        alt="my picture"
+        width="100%"
+        class="object-fit-cover rounded-circle"
+      />
+    </picture>
+    <article class="bio-container order-md-0 text-center text-md-start">
+      <h1 class="display-1">About Me</h1>
+      <ul class="lead list-style-none mt-4">
+        <li>My Name is Haneef Muhammad.</li>
+        <li>
+          I'm an experienced front-end developer specialized in crafting
+          performant websites and user interfaces for web applications. With
+          expertise in HTML, CSS, JavaScript, and ReactJS, I create seamless and
+          engaging web experiences.
+        </li>
+      </ul>
+      <a href="/Assets/resume.pdf" class="btn btn-light mt-4" download
+        >Click To Download Resume</a
+      >
+    </article>
+  </section>
+</main>
+
+<!--bottom nav-->
+
+<!--script section-->
+<%- include ('partials/bottom_nav.ejs') %> <%- include ('partials/footer.ejs')
+%>
