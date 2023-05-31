@@ -1,6 +1,6 @@
 # Express Portfolio Website
 
-This is a web resume built using HTML, CSS, SCSS, and React.js. The sections of the resume include skills, experience, education, projects, and contact information.
+This online personal portfolio is developed using HTML, CSS, Bootstrap, Express.js, Node.js, and EJS. The portfolio consists of several sections including an 'About Me' section, 'Projects' section, 'Services' section, and 'Contact' details.
 
 ## Hosting
 
@@ -16,8 +16,8 @@ To start the project, run `npm run start`. To build the project in production mo
 - CSS
 - Bootstrap
 - EJS
-- Express JS
-- Node Js
+- Express.js
+- Node.js
 
 ## Design
 
