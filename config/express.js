@@ -61,7 +61,7 @@ module.exports = function () {
   This line serves static files located in the "./public" directory. It sets up a middleware to handle 
   requests for static assets (e.g., CSS files, JavaScript files, images) from the specified directory.
   */
-  app.use(express.static("./public"));
+  app.use(express.static("./public/*"));
 
   /*
     This line serves static files located in the "./node_modules" directory. It sets up a 
