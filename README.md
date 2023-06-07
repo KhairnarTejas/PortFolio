@@ -21,7 +21,7 @@ To start the project, run `npm run start`. To build the project in production mo
 
 ## Design
 
-The website design has been created by me using Figma. I have utilized a modern and minimalistic design approach to showcase my resume in an aesthetically pleasing way. The design has been optimized for desktop and mobile devices to provide a seamless user experience.
+The website design has been created by me using the pre-build components of Bootstrap. I have utilized a modern and minimalistic design approach to showcase my resume in an aesthetically pleasing way. The design has been optimized for desktop and mobile devices to provide a seamless user experience.
 
 ## Author
 
