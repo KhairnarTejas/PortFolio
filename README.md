@@ -4,7 +4,7 @@ This online personal portfolio is developed using HTML, CSS, Bootstrap, Express.
 
 ## Hosting
 
-This project is hosted at <a href="[https://haneefmhmmd.github.io/resume](https://haneef-muhammad-portfolio.onrender.com/)" target="_blank">https://haneef-muhammad-portfolio.onrender.com/</a>.
+This project is hosted at <a href="[https://haneefmhmmd.github.io/resume](https://haneef-muhammad-portfolio.onrender.com/)" target="__blank">https://haneef-muhammad-portfolio.onrender.com/</a>.
 
 ## Getting Started
 
