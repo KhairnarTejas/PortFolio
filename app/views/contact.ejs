@@ -5,9 +5,14 @@
   <body>
     <!-- header section -->
     <%- include ('partials/main_nav.ejs') %>
-    <main class="container c-container mt-5 mb-5 pb-5">
-      <h1 class="display-4 text-center">Contact</h1>
-      <div class="social-links d-flex justify-content-center mt-2">
+    <main class="container c-contact-form mt-5 mb-5 pb-5">
+      <h1 class="display-4 text-center">Say Hello</h1>
+      <p class="text-secondary mt-3 text-center">
+        Thank you for visiting my portfolio website. I'd love to discuss how I
+        can contribute to your next project. Feel free to reach out via the
+        provided contact details.
+      </p>
+      <div class="social-links d-flex justify-content-center mt-3">
         <a
           aria-label="LinkedIn Profile"
           href="https://www.linkedin.com/in/haneefmhmmd/"
@@ -15,8 +20,8 @@
           rel="noreferrer noopener"
           class="icon"
           ><svg
-            width="32"
-            height="32"
+            width="48"
+            height="48"
             viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -32,8 +37,8 @@
           rel="noreferrer noopener"
           class="icon ms-2"
           ><svg
-            width="32"
-            height="32"
+            width="48"
+            height="48"
             viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +49,7 @@
             ></path></svg
         ></a>
       </div>
-      <form class="mt-5 c-contact-form" action="/">
+      <form class="mt-5" action="/">
         <div class="mb-3">
           <label for="firstName" class="form-label">First Name</label>
           <input
