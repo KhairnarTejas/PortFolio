@@ -1,28 +1,29 @@
-# Express Portfolio Website
+Express Portfolio Website
+This online personal portfolio is developed using HTML, CSS, Bootstrap, Express.js, Node.js, and EJS. The portfolio consists of several sections, including 'About Me,' 'Projects,' 'Skills,' 'Education,' and 'Contact' details.
 
-This online personal portfolio is developed using HTML, CSS, Bootstrap, Express.js, Node.js, and EJS. The portfolio consists of several sections including an 'About Me' section, 'Projects' section, 'Services' section, and 'Contact' details.
+Hosting
+This project is hosted at .
 
-## Hosting
 
-This project is hosted at <a href="[https://haneefmhmmd.github.io/resume](https://haneef-muhammad-portfolio.onrender.com/)" target="_blank">https://haneef-muhammad-portfolio.onrender.com/</a>.
 
-## Getting Started
+Technologies Used
+HTML
+CSS
+Bootstrap
+EJS
+Express.js
+Node.js
+Design
+The website design has been crafted by me using Bootstrap's pre-built components. I focused on a modern and minimalistic approach to ensure a professional and clean layout. The design is optimized for both desktop and mobile devices to ensure a smooth user experience across different platforms.
 
-To start the project, run `npm run start`. To build the project in production mode, run `npm run build`. When running `npm run start`, the app will open automatically on `localhost:8080`.
+Author
+My name is Tejas Khairnar, and here are my professional profiles:
 
-## Technologies Used
+LinkedIn: https://www.linkedin.com/in/tejas-khairnar-572a911aa/
+GitHub: https://github.com/KhairnarTejas
+Feel free to explore my portfolio to know more about my skills, projects, and experiences.
 
-- HTML
-- CSS
-- Bootstrap
-- EJS
-- Express.js
-- Node.js
 
-## Design
 
-The website design has been created by me using the pre-build components of Bootstrap. I have utilized a modern and minimalistic design approach to showcase my resume in an aesthetically pleasing way. The design has been optimized for desktop and mobile devices to provide a seamless user experience.
 
-## Author
 
-My name is Haneef Muhammad, and this is my LinkedIn profile [Link](https://www.linkedin.com/in/haneefmhmmd/).

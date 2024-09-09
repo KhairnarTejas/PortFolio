@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <!-- head section -->
+  <%- include ('partials/head.ejs') %>
+  <!-- Add Font Awesome CDN -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    rel="stylesheet"
+  />
+  <body>
+    <!-- header section -->
+    <%- include ('partials/main_nav.ejs') %>
+
+    <main class="container c-container mt-5 mb-5 pb-5">
+      <h1 class="display-4 text-center">My Skills</h1>
+      <section class="row mt-5 justify-content-center mx-0">
+        <!-- Skill Category: Programming Languages -->
+        <div class="col-lg-5">
+          <h2 class="text-center">Programming Languages</h2>
+          <ul class="list-group">
+            <li class="list-group-item d-flex align-items-center">
+              <i class="fab fa-java me-2"></i>
+              Java
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+              <i class="fas fa-code me-2"></i>
+              C++
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+              <i class="fab fa-js me-2"></i>
+              JavaScript
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+              <i class="fab fa-html5 me-2"></i>
+              HTML
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+              <i class="fab fa-css3-alt me-2"></i>
+              CSS
+            </li>
+          </ul>
+        </div>
+
+        <!-- Skill Category: Frameworks & Libraries -->
+        <div class="col-lg-5 mt-4 mt-lg-0">
+          <h2 class="text-center">Frameworks & Libraries</h2>
+          <ul class="list-group">
+            <li class="list-group-item d-flex align-items-center">
+              <i class="fab fa-node-js me-2"></i>
+              Node.js
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+              <i class="fas fa-server me-2"></i>
+              Express.js
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+              <i class="fas fa-code me-2"></i>
+              Embedded JS (EJS)
+            </li>
+          </ul>
+        </div>
+
+        <!-- Skill Category: Software Engineering Concepts -->
+        <div class="col-lg-5 mt-4">
+          <h2 class="text-center">Software Engineering Concepts</h2>
+          <ul class="list-group">
+            <li class="list-group-item d-flex align-items-center">
+              <i class="fas fa-database me-2"></i>
+              DBMS
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+              <i class="fas fa-cubes me-2"></i>
+              OOP (Object-Oriented Programming)
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+              <i class="fas fa-project-diagram me-2"></i>
+              SDLC (Software Development Life Cycle)
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+              <i class="fas fa-columns me-2"></i>
+              MVC (Model-View-Controller)
+            </li>
+          </ul>
+        </div>
+
+        <!-- Skill Category: Problem Solving & Coding -->
+        <div class="col-lg-5 mt-4">
+          <h2 class="text-center">Problem Solving & Coding</h2>
+          <ul class="list-group">
+            <li class="list-group-item d-flex align-items-center">
+              <i class="fas fa-lightbulb me-2"></i>
+              Problem Solving
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+              <i class="fas fa-keyboard me-2"></i>
+              Coding
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!--footer section-->
+    <%- include ('partials/footer.ejs') %>
+    <!--script section-->
+    <%- include ('partials/scripts.ejs') %>
+  </body>
+</html>

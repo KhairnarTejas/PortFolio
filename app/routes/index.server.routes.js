@@ -14,13 +14,16 @@ router.get("/home", function (req, res, next) {
 router.get("/about", function (req, res, next) {
   res.render("about", { title: "About" });
 });
+router.get("/education", function (req, res, next) {
+  res.render("education", { title: "Education" });
+});
 
 router.get("/projects", function (req, res, next) {
   res.render("projects", { title: "Projects" });
 });
 
-router.get("/services", function (req, res, next) {
-  res.render("services", { title: "Services" });
+router.get("/Skills", function (req, res, next) {
+  res.render("Skills", { title: "Skills" });
 });
 
 router.get("/contact", function (req, res, next) {
