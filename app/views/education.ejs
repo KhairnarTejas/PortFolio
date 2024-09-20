@@ -2,6 +2,34 @@
 <html lang="en" data-bs-theme="dark">
   <!-- head section -->
   <%- include('partials/head.ejs') %>
+  <style>
+    body {
+      background-color: #212529;
+      color: #f8f9fa;
+    }
+    h1, h2 {
+      color: #ffffff;
+    }
+    .card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 20px rgba(0, 123, 255, 0.5);
+    }
+    .achievements-section i {
+      color: #007bff;
+      margin-right: 10px;
+    }
+    .list-unstyled {
+      padding-left: 0;
+    }
+    .list-unstyled li {
+      padding: 5px 0;
+      display: flex;
+      align-items: center;
+    }
+  </style>
   <body>
     <!-- header section -->
     <%- include('partials/main_nav.ejs') %>
@@ -61,6 +89,3 @@
     <%- include('partials/scripts.ejs') %>
   </body>
 </html>
-
-
-
