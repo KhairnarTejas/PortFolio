@@ -3,10 +3,6 @@
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
 />
-<link
-  rel="stylesheet"
-  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-/>
 
 <html lang="en" data-bs-theme="dark">
   <!-- head section -->
@@ -16,12 +12,37 @@
     <%- include('partials/main_nav.ejs') %>
 
     <main class="container c-container mt-5 mb-5 pb-5">
-      <h1 class="display-4 text-center mb-4">My Projects</h1>
+      <h1 class="display-4 text-center">My Projects</h1>
       <section class="row mt-5 justify-content-center mx-0">
+
+        <!-- BizzTrack Project Card -->
+        <div class="card pt-4 col-lg-4">
+          <div class="card-img-top text-center">
+            <img src="images/bizztrack.png" alt="BizzTrack" class="img-fluid" /> <!-- BizzTrack image -->
+          </div>
+          <div class="card-body d-flex flex-column text-center">
+            <h5 class="card-title">BizzTrack</h5>
+            <p class="card-text mb-3">
+              Developed a business tracking solution to monitor performance metrics and visualize key data trends.
+            </p>
+            <p><strong>Role:</strong> Full Stack Web Developer</p>
+            <p><strong>Technologies:</strong> Node.js, Express.js, MongoDB</p>
+            <p><strong>Duration:</strong> Oct 2024</p>
+            <a
+              href="https://bizztrack2-hs6m62fq.b4a.run/"
+              class="btn btn-outline-secondary mt-auto"
+              target="_blank"
+              >Visit Project</a
+            >
+          </div>
+        </div>
+
         <!-- Nashik-Properties Project Card -->
-        <div class="card col-lg-4 mx-2 mb-4 shadow-lg hover-shadow">
-          <img src="/images/nsk.png" class="card-img-top" alt="Nashik Properties">
-          <div class="card-body text-center">
+        <div class="card pt-4 col-lg-4 mt-4 mt-lg-0 ms-lg-5">
+          <div class="card-img-top text-center">
+            <img src="images/nsk.png" alt="Nashik-Properties" class="img-fluid" /> <!-- Nashik-Properties image -->
+          </div>
+          <div class="card-body d-flex flex-column text-center">
             <h5 class="card-title">Nashik-Properties</h5>
             <p class="card-text mb-3">
               Developed a comprehensive website showcasing developers and their real estate projects across various locations.
@@ -29,29 +50,21 @@
             <p><strong>Role:</strong> Full Stack Web Developer</p>
             <p><strong>Technologies:</strong> Express.js, MongoDB, Mongoose, MVC Architecture, Embedded JS, HTML, CSS, JavaScript</p>
             <p><strong>Duration:</strong> Jan 2024 - Mar 2024</p>
-            <a href="https://nashik-properties-vz2c.onrender.com" class="btn btn-primary" target="_blank">Visit Project</a>
+            <a
+              href="https://nashikproperties-hhphvht2.b4a.run/"
+              class="btn btn-outline-secondary mt-auto"
+              target="_blank"
+              >Visit Project</a
+            >
           </div>
         </div>
 
-        <!-- Food & Fun Project Card -->
-        <div class="card col-lg-4 mx-2 mb-4 shadow-lg hover-shadow">
-          <img src="/images/foodnfun.png" class="card-img-top" alt="Food & Fun">
-          <div class="card-body text-center">
-            <h5 class="card-title">Food & Fun</h5>
-            <p class="card-text mb-3">
-              Development of a website for a hotel, showcasing their services and menu offerings.
-            </p>
-            <p><strong>Role:</strong> Backend Developer</p>
-            <p><strong>Technologies:</strong> Node.js, Express.js, MongoDB</p>
-            <p><strong>Duration:</strong> Apr 2024 - May 2024</p>
-            <a href="https://food-fun-main-2jdm.onrender.com" class="btn btn-primary" target="_blank">Visit Project</a>
-          </div>
-        </div>
-        
         <!-- Wanderlust Project Card -->
-        <div class="card col-lg-4 mx-2 mb-4 shadow-lg hover-shadow">
-          <img src="/images/wanderlust.png" class="card-img-top" alt="Wanderlust">
-          <div class="card-body text-center">
+        <div class="card pt-4 col-lg-4 mt-4 mt-lg-0 ms-lg-5">
+          <div class="card-img-top text-center">
+            <img src="images/wanderlust.png" alt="Wanderlust" class="img-fluid" /> <!-- Wanderlust image -->
+          </div>
+          <div class="card-body d-flex flex-column text-center">
             <h5 class="card-title">Wanderlust</h5>
             <p class="card-text mb-3">
               Developed a full-stack website for seamless accommodation and travel experiences.
@@ -59,41 +72,41 @@
             <p><strong>Role:</strong> Full Stack Web Developer</p>
             <p><strong>Technologies:</strong> HTML, Bootstrap, JavaScript, Node.js, Express.js, Mongoose</p>
             <p><strong>Duration:</strong> Dec 2023 - Jan 2024</p>
-            <a href="https://wanderlust-project-esoe.onrender.com" class="btn btn-primary" target="_blank">Visit Project</a>
+            <a
+              href="https://wanderlust-project-esoe.onrender.com"
+              class="btn btn-outline-secondary mt-3 mt-auto"
+              target="_blank"
+              >Visit Project</a
+            >
           </div>
         </div>
-        
+
+        <!-- Food & Fun Project Card -->
+        <div class="card pt-4 col-lg-4 mt-4 mt-lg-0 ms-lg-5">
+          <div class="card-img-top text-center">
+            <img src="images/foodnfun.png" alt="Food & Fun" class="img-fluid" /> <!-- Food & Fun image -->
+          </div>
+          <div class="card-body d-flex flex-column text-center">
+            <h5 class="card-title">Food & Fun</h5>
+            <p class="card-text mb-3">
+              Development of a website for a hotel, showcasing their services and menu offerings.
+            </p>
+            <p><strong>Role:</strong> Backend Developer</p>
+            <p><strong>Technologies:</strong> Node.js, Express.js, MongoDB</p>
+            <p><strong>Duration:</strong> Apr 2024 - May 2024</p>
+            <a
+              href="https://food-fun-main-2jdm.onrender.com/"
+              class="btn btn-outline-secondary mt-3"
+              target="_blank"
+              >Visit Project</a
+            >
+          </div>
+        </div>
       </section>
     </main>
     <!-- footer section -->
     <%- include('partials/footer.ejs') %>
     <!-- scripts -->
     <%- include('partials/scripts.ejs') %>
-
-    <style>
-      .card {
-        transition: transform 0.3s;
-      }
-      .card:hover {
-        transform: scale(1.05);
-      }
-      .shadow-lg {
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-      }
-      .hover-shadow {
-        transition: box-shadow 0.3s;
-      }
-      .hover-shadow:hover {
-        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-      }
-      .btn-primary {
-        background-color: #007bff;
-        border-color: #007bff;
-      }
-      .btn-primary:hover {
-        background-color: #0056b3;
-        border-color: #0056b3;
-      }
-    </style>
   </body>
 </html>
