@@ -1,112 +1,105 @@
 <!DOCTYPE html>
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-/>
-
 <html lang="en" data-bs-theme="dark">
-  <!-- head section -->
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+    }
+    .card {
+      transition: transform 0.2s;
+      border: none;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card-title {
+      font-weight: bold;
+      font-size: 1.25rem;
+    }
+    .project-section {
+      margin-top: 5rem;
+    }
+    .project-title {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+    .btn-outline-secondary {
+      border-radius: 50px;
+      font-weight: bold;
+    }
+  </style>
   <%- include('partials/head.ejs') %>
-  <body>
-    <!-- header section -->
-    <%- include('partials/main_nav.ejs') %>
+</head>
+<body>
+  <!-- Header Section -->
+  <%- include('partials/main_nav.ejs') %>
 
-    <main class="container c-container mt-5 mb-5 pb-5">
-      <h1 class="display-4 text-center">My Projects</h1>
-      <section class="row mt-5 justify-content-center mx-0">
-
-        <!-- BizzTrack Project Card -->
-        <div class="card pt-4 col-lg-4">
-          <div class="card-img-top text-center">
-            <img src="images/bizztrack.png" alt="BizzTrack" class="img-fluid" /> <!-- BizzTrack image -->
-          </div>
-          <div class="card-body d-flex flex-column text-center">
-            <h5 class="card-title">BizzTrack</h5>
-            <p class="card-text mb-3">
-              Developed a business tracking solution to monitor performance metrics and visualize key data trends.
-            </p>
-            <p><strong>Role:</strong> Full Stack Web Developer</p>
-            <p><strong>Technologies:</strong> Node.js, Express.js, MongoDB</p>
-            <p><strong>Duration:</strong> Oct 2024</p>
-            <a
-              href="https://bizztrack2-hs6m62fq.b4a.run/"
-              class="btn btn-outline-secondary mt-auto"
-              target="_blank"
-              >Visit Project</a
-            >
-          </div>
+  <main class="container c-container mt-5 mb-5 pb-5">
+    <h1 class="project-title">My Projects</h1>
+    
+    <section class="row project-section justify-content-center">
+      <!-- BizzTrack Project Card -->
+      <div class="card col-lg-4 col-md-6 mb-4">
+        <img src="images/bizztrack.png" class="card-img-top" alt="BizzTrack" />
+        <div class="card-body d-flex flex-column text-center">
+          <h5 class="card-title">BizzTrack</h5>
+          <p class="card-text">A platform for managing customers, products, and orders with CRUD functionalities and invoice generation, streamlining business operations.</p>
+          <p><strong>Role:</strong> Full Stack Web Developer</p>
+          <p><strong>Technologies:</strong> Node.js, Express.js, MongoDB</p>
+          <p><strong>Duration:</strong> Oct 2024</p>
+          <a href="https://bizztrack2-hs6m62fq.b4a.run/" class="btn btn-outline-secondary mt-auto" target="_blank">Visit Project</a>
         </div>
+      </div>
 
-        <!-- Nashik-Properties Project Card -->
-        <div class="card pt-4 col-lg-4 mt-4 mt-lg-0 ms-lg-5">
-          <div class="card-img-top text-center">
-            <img src="images/nsk.png" alt="Nashik-Properties" class="img-fluid" /> <!-- Nashik-Properties image -->
-          </div>
-          <div class="card-body d-flex flex-column text-center">
-            <h5 class="card-title">Nashik-Properties</h5>
-            <p class="card-text mb-3">
-              Developed a comprehensive website showcasing developers and their real estate projects across various locations.
-            </p>
-            <p><strong>Role:</strong> Full Stack Web Developer</p>
-            <p><strong>Technologies:</strong> Express.js, MongoDB, Mongoose, MVC Architecture, Embedded JS, HTML, CSS, JavaScript</p>
-            <p><strong>Duration:</strong> Jan 2024 - Mar 2024</p>
-            <a
-              href="https://nashikproperties-hhphvht2.b4a.run/"
-              class="btn btn-outline-secondary mt-auto"
-              target="_blank"
-              >Visit Project</a
-            >
-          </div>
+      <!-- Nashik-Properties Project Card -->
+      <div class="card col-lg-4 col-md-6 mb-4">
+        <img src="images/nsk.png" class="card-img-top" alt="Nashik-Properties" />
+        <div class="card-body d-flex flex-column text-center">
+          <h5 class="card-title">Nashik-Properties</h5>
+          <p class="card-text">A comprehensive website showcasing developers and their real estate projects across various locations.</p>
+          <p><strong>Role:</strong> Full Stack Web Developer</p>
+          <p><strong>Technologies:</strong> Express.js, MongoDB, Mongoose, MVC Architecture, Embedded JS, HTML, CSS, JavaScript</p>
+          <p><strong>Duration:</strong> Jan 2024 - Mar 2024</p>
+          <a href="https://nashikproperties-hhphvht2.b4a.run/" class="btn btn-outline-secondary mt-auto" target="_blank">Visit Project</a>
         </div>
+      </div>
 
-        <!-- Wanderlust Project Card -->
-        <div class="card pt-4 col-lg-4 mt-4 mt-lg-0 ms-lg-5">
-          <div class="card-img-top text-center">
-            <img src="images/wanderlust.png" alt="Wanderlust" class="img-fluid" /> <!-- Wanderlust image -->
-          </div>
-          <div class="card-body d-flex flex-column text-center">
-            <h5 class="card-title">Wanderlust</h5>
-            <p class="card-text mb-3">
-              Developed a full-stack website for seamless accommodation and travel experiences.
-            </p>
-            <p><strong>Role:</strong> Full Stack Web Developer</p>
-            <p><strong>Technologies:</strong> HTML, Bootstrap, JavaScript, Node.js, Express.js, Mongoose</p>
-            <p><strong>Duration:</strong> Dec 2023 - Jan 2024</p>
-            <a
-              href="https://wanderlust-project-esoe.onrender.com"
-              class="btn btn-outline-secondary mt-3 mt-auto"
-              target="_blank"
-              >Visit Project</a
-            >
-          </div>
+      <!-- Food & Fun Project Card -->
+      <div class="card col-lg-4 col-md-6 mb-4">
+        <img src="images/foodnfun.png" class="card-img-top" alt="Food & Fun" />
+        <div class="card-body d-flex flex-column text-center">
+          <h5 class="card-title">Food & Fun</h5>
+          <p class="card-text">Development of a hotel website showcasing services and menu offerings.</p>
+          <p><strong>Role:</strong> Backend Developer</p>
+          <p><strong>Technologies:</strong> Node.js, Express.js, MongoDB</p>
+          <p><strong>Duration:</strong> Apr 2024 - May 2024</p>
+          <a href="https://food-fun-main-2jdm.onrender.com/" class="btn btn-outline-secondary mt-auto" target="_blank">Visit Project</a>
         </div>
+      </div>
 
-        <!-- Food & Fun Project Card -->
-        <div class="card pt-4 col-lg-4 mt-4 mt-lg-0 ms-lg-5">
-          <div class="card-img-top text-center">
-            <img src="images/foodnfun.png" alt="Food & Fun" class="img-fluid" /> <!-- Food & Fun image -->
-          </div>
-          <div class="card-body d-flex flex-column text-center">
-            <h5 class="card-title">Food & Fun</h5>
-            <p class="card-text mb-3">
-              Development of a website for a hotel, showcasing their services and menu offerings.
-            </p>
-            <p><strong>Role:</strong> Backend Developer</p>
-            <p><strong>Technologies:</strong> Node.js, Express.js, MongoDB</p>
-            <p><strong>Duration:</strong> Apr 2024 - May 2024</p>
-            <a
-              href="https://food-fun-main-2jdm.onrender.com/"
-              class="btn btn-outline-secondary mt-3"
-              target="_blank"
-              >Visit Project</a
-            >
-          </div>
+      <!-- Wanderlust Project Card -->
+      <div class="card col-lg-4 col-md-6 mb-4">
+        <img src="images/wanderlust.png" class="card-img-top" alt="Wanderlust" />
+        <div class="card-body d-flex flex-column text-center">
+          <h5 class="card-title">Wanderlust</h5>
+          <p class="card-text">A full-stack website for seamless accommodation and travel experiences.</p>
+          <p><strong>Role:</strong> Full Stack Web Developer</p>
+          <p><strong>Technologies:</strong> HTML, Bootstrap, JavaScript, Node.js, Express.js, Mongoose</p>
+          <p><strong>Duration:</strong> Dec 2023 - Jan 2024</p>
+          <a href="https://wanderlust-project-esoe.onrender.com" class="btn btn-outline-secondary mt-auto" target="_blank">Visit Project</a>
         </div>
-      </section>
-    </main>
-    <!-- footer section -->
-    <%- include('partials/footer.ejs') %>
-    <!-- scripts -->
-    <%- include('partials/scripts.ejs') %>
-  </body>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <%- include('partials/footer.ejs') %>
+  
+  <!-- Scripts -->
+  <%- include('partials/scripts.ejs') %>
+</body>
 </html>
